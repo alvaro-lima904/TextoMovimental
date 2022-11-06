@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600&family=Raleway:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #e8effd 0%, #d6e3f5 100%);
+}
+
+.text{
+    font-size: 120px;
+    background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif) repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -4px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+    font-family: 'Raleway', sans-serif;
+}
